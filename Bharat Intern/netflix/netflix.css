@@ -1,0 +1,154 @@
+body{
+    background: url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: 1550px 650px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+nav .img img{
+    width: 17%;
+    margin-top: -20px;
+    margin-left: 100px;
+}
+
+.btn .eng:hover{
+    background: transparent;
+}
+
+.btn .sign:hover{
+    background: rgb(230, 63, 63);
+    border-radius: 2px solid red ;
+}
+
+nav .btn{
+    display: flex;
+    margin-top: 22px;
+    margin-right: 100px;
+}
+
+.btn .eng{
+    width: 110px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-size: 17px;
+    border: 2px solid white;
+}
+
+.btn .sign{
+    width: 90px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.btn .eng{
+    margin-inline-end: 22px;
+}
+
+.main{
+    text-align: center;
+}
+.main h1{
+    font-size: 50px;
+}
+.main h3{
+    font-size: 30px;
+}
+.main p{
+    font-size: 25px;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+.input input{
+    width: 350px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+}
+.input button{
+    width: 200px;
+    height: 50px;
+    background-color: rgb(233, 14, 14);
+    color: white;
+    font-size: 22px;
+    border: none;
+} 
+
+.first{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    padding: 66px;
+    border-top: 4px solid gray;
+
+}
+
+.first h1{
+    font-size: 50px;
+}
+
+.first p{
+    font-size: 25px;
+}
+
+.first .img1{
+    width: 350px;
+    margin-left: 50px;
+}
+
+.first .img2{
+    width: 350px;
+    margin-left: 50px;
+}
+
+.buttons h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 60px;
+}
+
+.buttons button{
+    width: 900px;
+    height: 80px;
+    background-color: gray;
+    color: white;
+    font-size: 22px;
+    text-align: left;
+    margin-left: 260px;
+}
+.buttons{
+    border-top: 4px solid gray;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 4px solid gray;
+    margin-top: 40px;
+    font-size: 18px;
+}
+
+.footer button{
+    width: 100px;
+    height: 40px;
+    background-color: rgba(27, 22, 22, 0.521);
+    color: white;
+    border-radius: 4px solid white;
+
+}
+
+
